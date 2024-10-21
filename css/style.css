@@ -1,0 +1,130 @@
+/* div */
+.container {
+    /* width: min(100%, 1440px); */
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+
+
+}
+
+/* header */
+header {
+
+    padding: 58px 93px;
+    background-color: #284069;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLink {
+    display: flex;
+    width: 54px;
+    height: 54px;
+
+}
+
+.logoImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.active {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    color: #E29770;
+
+
+}
+
+.inactive {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    color: #DDEAF8;
+
+
+}
+
+.header_list_wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+/* section */
+
+.mainSection {
+
+    width: calc(1244 / 1440 * 100%);
+    margin: 94px auto;
+    
+  
+
+
+
+}
+
+
+
+.internalSection {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px 22px ; */
+    margin-top: 68px;
+
+}
+
+article {
+    background-color: #DDEAF8;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+}
+
+.sectionTitle {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    color: #942C0D;
+
+
+}
+
+.articleImage {
+    /* width: calc(340 / 400 * 100%); */
+    height: 220px;
+    width: 100%;
+}
+
+
+button {
+    margin-left: 195px;
+    margin-top: 30px;
+    width: 145px;
+    height: 44px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    background-color: #E29770;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+
+
+
+
+
+
+
+
+
+}
